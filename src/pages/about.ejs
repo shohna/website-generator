@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - <%= site.title %></title>
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects.html">Projects</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <h1>About Me</h1>
+      <p>Hi, I'm Shohna Kanchan, a web developer with a passion for creating beautiful and functional websites. Here you can learn more about my background, skills, and experiences.</p>
+      <p>Feel free to browse through my projects and get in touch if you'd like to work together!</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; <%= new Date().getFullYear() %> <%= site.title %>. All rights reserved.</p>
+  </footer>
+</body>
+</html>
